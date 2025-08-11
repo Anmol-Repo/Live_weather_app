@@ -46,6 +46,13 @@ font-size: 18px;
     height: 60px;
     cursor: pointer; 
  }
+.search button:hover {
+    background: #f7ffff; /* lighter shade */
+}
+
+.search button:active {
+    background: #c2dfda; /* darker shade */
+}
  .search button img{
     width: 20px;
  }
